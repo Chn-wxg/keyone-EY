@@ -1,5 +1,4 @@
-说明：这个教程属于我复制hangaj的，他可能也是复制于其他人。
-复制这个教程的原因是我安装的时候，代码里面的链接已经失效，所以我复制一遍方便修改代码。
+说明：所有链接都失效了，打算复制过来修改
 如有侵权请联系我删除。
 
 
@@ -26,12 +25,12 @@
 <br/>点击新建-添加新证书-导入证书-选择下载的私钥跟证书
 <br/>证书下载地址
 ```
-https://raw.githubusercontent.com/Ethan-7seng/embyonekey/master/mb3admin.com.cert.pem
-https://raw.githubusercontent.com/Ethan-7seng/embyonekey/master/mb3admin.com.key.pem
+https://raw.githubusercontent.com/Chn-wxg/keyone-EY/master/mb3admin.com.cert.pem
+https://raw.githubusercontent.com/Chn-wxg/keyone-EY/master/mb3admin.com.key.pem
 ```
-<br><img src="https://raw.githubusercontent.com/Ethan-7seng/embyonekey/master/cert0.png"><br>
+<br><img src="https://raw.githubusercontent.com/Chn-wxg/keyone-EY/master/cert0.png"><br>
 <br/>3. 保存后在配置中将mb3admin.com的证书设置为刚导入的的证书
-<br><img src="https://raw.githubusercontent.com/Ethan-7seng/embyonekey/master/cert1.png"><br>
+<br><img src="https://raw.githubusercontent.com/Chn-wxg/keyone-EY/master/cert1.png"><br>
 
 
 #### 劫持mb3admin伪站
@@ -72,7 +71,7 @@ https://raw.githubusercontent.com/Ethan-7seng/embyonekey/master/mb3admin.com.key
 
 
 以root用户执行命令：<br/>
-</p><pre><code>wget -N --no-check-certificate "https://raw.githubusercontent.com/Ethan-7seng/embyonekey/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
+</p><pre><code>wget -N --no-check-certificate "https://raw.githubusercontent.com/Chn-wxg/keyone-EY/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
 
 <br/>运行完毕
 <br/>可以输入以下命令测试
